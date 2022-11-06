@@ -1,0 +1,71 @@
+/*
+Author: Samuel Ayoola
+Date: 11/04/2022
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, main, footer, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #ffe5dc;
+  font-family: sans-serif;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style for the table element */
+table {
+  background-color: #ffe5dc;
+  width: 80%;
+  margin: 0 auto;
+  border: 7px solid #fd4d0c;
+  box-shadow: 7px 7px #792101;
+ 
+}
+
+table, tr, th, td{
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+
+th, td {
+    border: 1.5px solid #a22c02;
+}
+
+td{
+    text-align: left;
+}
+
+tr:nth-child(odd){
+    background-color: #fe9772;
+}
+
+th{
+  color: white;
+  background-color:#a22c02;
+  border: 1px solid white;
+}
+caption{
+color:#792101;
+font-weight: bold;
+font-size: 2em;
+padding: 2%;
+margin-top: 2%;
+}
